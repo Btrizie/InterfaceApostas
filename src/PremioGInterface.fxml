@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="400.0" prefWidth="587.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ResultadoInterface">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#2f4b26" height="80.0" layoutX="-6.0" layoutY="-15.0" stroke="BLACK" strokeType="INSIDE" width="648.0" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="108.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../Downloads/Apostas%20da%20Sorte.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="90.0" layoutX="44.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../Downloads/Apostas%20da%20Sorte%20(1).png" />
+         </image>
+      </ImageView>
+      <Text layoutX="266.0" layoutY="170.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Premiação:">
+         <font>
+            <Font name="Sitka Text" size="18.0" />
+         </font>
+      </Text>
+      <Label fx:id="ganhadores2" layoutX="214.0" layoutY="75.0" prefHeight="22.0" prefWidth="213.0" text="Não houve ganhadores..." textAlignment="CENTER" textFill="RED">
+         <font>
+            <Font name="Sitka Text" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="80.0" fitWidth="116.0" layoutX="25.0" layoutY="256.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../Downloads/Inicio%20(3).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="80.0" fitWidth="116.0" layoutX="325.0" layoutY="256.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../Downloads/Inicio%20(4).png" />
+         </image>
+      </ImageView>
+      <Text fill="#706d6d" layoutX="146.0" layoutY="186.0" strokeType="OUTSIDE" strokeWidth="0.0" text="O prêmio atual equivale a um &quot;Sorte coin&quot;, avaliado em $200.000,00 por ser uma moeda digital praticamente inexistente ;)" textAlignment="CENTER" wrappingWidth="333.7067108154297">
+         <font>
+            <Font name="Sitka Text" size="14.0" />
+         </font>
+      </Text>
+      <Text fill="#706d6d" layoutX="432.0" layoutY="276.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Caso haja mais de um ganhador o prêmio será igualmente dividido." wrappingWidth="161.04006958007812">
+         <font>
+            <Font name="Sitka Text" size="12.0" />
+         </font>
+      </Text>
+      <Text fill="#706d6d" layoutX="126.0" layoutY="269.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Os ganhadores deverão se apresentar a uma das bancas parceiras da &quot;Apostas da sorte&quot; para retirar seu prêmio" wrappingWidth="181.70669555664062">
+         <font>
+            <Font name="Sitka Text" size="12.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
